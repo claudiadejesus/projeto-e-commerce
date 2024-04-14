@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<body>
+    <h2>Contato</h2>
+    <form action="#" method="get" autocomplete="on">
+        <p>
+            <label for="inome">Nome</label>
+            <input type="text" name="nome" id="inome" minlength="5" maxlength="30" autocomplete="nome" required>
+        </p>
+
+        <p>
+            <label for="iemail">E-mail</label>
+            <input type="email" name="email" id="iemail" autocomplete="email" required placeholder="@gmail.com">
+        </p>
+
+        <p>
+            <label for="iprodutos">Produtos</label>
+            <select name="produtos" id="iprodutos">
+                <option value="" selected>--- Escolha ---</option>
+                <option value="an">Anel</option>
+                <option value="bo">Bolsa</option>
+                <option value="Pe">Pente</option>
+                <option value="la">Laço de cetim</option>
+                <option value="es">Espelho</option>
+            </select>
+            
+        </p>
+
+        <p>
+            <label for="idata">Data</label>
+            <input type="date" name="data" id="idata">
+        </p>
+
+        <fieldset>
+            <legend>Opções de Pagamento</legend>
+            <input type="radio" name="pagamento" id="icartao"><label for="icartao">Cartão</label><br>
+            <input type="radio" name="pagamento" id="ipix"><label for="ipix">Pix</label> <br>
+            <input type="radio" name="pagamento" id="iboleto"><label for="iboleto">Boleto</label>
+        </fieldset>
+        
+        <p>
+            <label for="imsg">Mensagem</label> <br>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+        </p>
+         
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="submit" value="Cancelar">
+        </p>
+        
+       
+    </form>
+</body>
+</html>
