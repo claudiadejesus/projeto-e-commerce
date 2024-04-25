@@ -7,7 +7,40 @@
 }
 
 body {
+    background-color:;
+}
+
+nav {
     background-color: ;
+    padding: 10px;
+}
+
+nav > a {
+    color: ;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav > a:hover {
+
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 20px;
+    background-color: white;
+   
+}
+
+main > article > p {
+    text-align: justify;
+    font-size: 1em;
+    line-height: 2em;
+  
+}
+div#container {
+    overflow-x: auto;
 }
 
 table {
