@@ -11,44 +11,54 @@ body {
 }
 
 nav {
-    background-color: ;
+    background-color:#f896d8;
     padding: 10px;
 }
 
 nav > a {
-    color: ;
+    color: black ;
     padding: 10px;
     text-decoration: none;
 }
 
 nav > a:hover {
-
+    
 }
 
 main {
     min-width: 300px;
     max-width: 1000px;
+   
+    margin-bottom: 30px;
     padding: 20px;
     background-color: white;
    
 }
 
+
+
+
 main > article > p {
+    margin: 10px 0px;
     text-align: justify;
     font-size: 1em;
     line-height: 2em;
   
 }
+
 div#container {
     overflow-x: auto;
 }
 
+
 table {
     border-collapse: collapse;
+    
 }
 
 caption {
     font-size: 1.3em;
+    
 }
 
 caption,th,td {
