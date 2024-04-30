@@ -29,7 +29,7 @@ nav > a {
 }
 
 nav > a:hover {
-  text-decoration: underline;
+  text-decoration:underline;
 }
 
 header > img.pequena {
@@ -41,7 +41,7 @@ header > img.pequena {
 
 main {
     background-color: white;
-    padding: 10px;
+    padding: 20px;
     margin-bottom: 30px;
 }
 
