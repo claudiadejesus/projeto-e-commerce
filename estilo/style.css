@@ -1,17 +1,22 @@
 @charset "UTF-8";
 
 * {
-    font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
 }
 
-body {
-    background-color:;
+html {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+    background-color: pink;
+   
 }
 
 nav {
-    background-color:#f896d8;
+   background-color:#f896d8;
     padding: 10px;
 }
 
@@ -19,22 +24,26 @@ nav > a {
     color: black ;
     padding: 10px;
     text-decoration: none;
+    font-weight: bold;
+   
 }
 
 nav > a:hover {
-    
+  text-decoration: underline;
+}
+
+header > img.pequena {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    margin: auto;
 }
 
 main {
-    min-width: 300px;
-    max-width: 1000px;
-   
-    margin-bottom: 30px;
-    padding: 20px;
     background-color: white;
-   
+    padding: 10px;
+    margin-bottom: 30px;
 }
-
 
 
 
@@ -43,8 +52,8 @@ main > article > p {
     text-align: justify;
     font-size: 1em;
     line-height: 2em;
-  
 }
+
 
 div#container {
     overflow-x: auto;
