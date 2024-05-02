@@ -45,9 +45,11 @@ main {
     margin-bottom: 30px;
 }
 
+ article > h2 {
+    padding-bottom: 10px;
+}
 
-
-main > article > p {
+ article > p {
     margin: 10px 0px;
     text-align: justify;
     font-size: 1em;
@@ -62,15 +64,18 @@ div#container {
 
 table {
     border-collapse: collapse;
+ 
     
 }
 
 caption {
     font-size: 1.3em;
+    font-weight: bold;
     
+   
 }
 
-caption,th,td {
+caption, th, td {
     border: 1px solid black;
     padding: 10px;
 }
